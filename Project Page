@@ -26,10 +26,24 @@ body {background-color: #99ff99;
 
 
 
-<button onclick="revealAnswer()"> Reveal Answer</button>
+<button onclick="myFunction()">Reveal the Answer</button>
 
+<div id="ShowAnswer">
+The Answer 
 
+</div>
 
+<script>
+
+function myFunction() {
+    var x = document.getElementById("ShowAnswer");
+    if (x.style.display === "none") {
+        x.style.display = "block";}
+      else {
+        x.style.display = "none";
+    }
+}
+</script>
 </body>
 
 
