@@ -10,41 +10,7 @@ body {background-color: #ccffcc;}
 <p>This site gives you practice problems for one of the TMSCA science tests.This way you can get your feet wet with the TMSCA and learn more about how the science test works.</p>
 
 
-<button onclick="myFunction()">Reveal the Answer</button>
-
-
-
-<div id="answer1">
-
-The Answer 
-
-
-
-</div>
-
-
-
-<script>
-
-
-
-function myFunction() {
-
-    var x = document.getElementById("answer1");
-
-    if (x.style.display === "none") {
-
-        x.style.display = "block";}
-
-      else {
-
-        x.style.display = "none";
-
-    }
-
-}
-
-</script>
+<!---add answer template, preferably by file entry--->
 
 </body>
 </html>
