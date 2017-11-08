@@ -1,0 +1,6 @@
+<!doctype html>
+<html>
+  <header> Welcome to Amrit and Ian's Computer science project!</header>
+  <body>
+    <h3> Please click on the button below.<br>It will take you to the current version of Ian and Amrit's first html project.<br>Thanks!<h3>
+      <button href="http://www.google.com"> Google </button>
