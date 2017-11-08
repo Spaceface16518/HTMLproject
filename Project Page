@@ -15,14 +15,10 @@ div {
 display: none
 }
 </style>
-
 <body>
 <h3 style = "color:#0077e6"> <b> TMSCA Science</b> Practice</h3>
 <p>This site gives you practice problems for one of the TMSCA science tests.This way you can get your feet wet with the TMSCA and learn more about how the science test works.</p>
 
-<!DOCTYPE html>
-<html>
-<body>
 <table style="width:100%">
   <tr>
     <td colspan ="2">Question?</td>
@@ -35,21 +31,37 @@ display: none
     <td>D) </td>
   </tr>
 </table>
-
-<!---cut in between here to make changes to the reveal answer function--->
-
 <button onclick="answer1Function()">Answer</button>
-
 <div id="answer1">
 Answer </div> 
 <!---replace the word answer with the answer letter, and change the number after the "answer" id to the problem number--->
-
 <script>
 function answer1Function() {
     alert ("answer1")
     }
 </script>
-<!---cut in between here to make changes to the reveal answer function--->
+
+<table style="width:100%">
+  <tr>
+    <td colspan ="2">Question?</td>
+  <tr>
+    <td>A) </td>
+    <td>B) </td>
+  </tr>
+  <tr>
+    <td>C) </td>
+    <td>D) </td>
+  </tr>
+</table>
+<button onclick="answer2Function()">Answer</button>
+<div id="answer2">
+Answer </div> 
+<!---replace the word answer with the answer letter, and change the number after the "answer" id to the problem number--->
+<script>
+function answer1Function() {
+    alert ("answer2")
+    }
+</script>
 </body>
 </html>
 </body>
