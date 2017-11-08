@@ -40,5 +40,30 @@ function answer1Function() {
 </script>
 <!------------------------------------------------------------------------------------------------------------>
 
+
+<!------------------------------------------------------------------------------------------------------------------------>
+
+<table style="width:100%">
+  <tr>
+    <td colspan ="2">After going from a standing position to running, your heart rate is likely to _____ after a few minutes.</td>
+  <tr>
+    <td>A) Increase </td>
+    <td>B) Decrease </td>
+  </tr>
+  <tr>
+    <td>C) Stay the same </td>
+    <td>D) Decrease, then increase </td>
+  </tr>
+</table>
+<button onclick="answerXFunction()">Answer</button>
+<script>
+function answerXFunction() {
+    alert ("A, your heart rate will increase after a few minutes")
+    }
+</script>
+
+<!--------------------------------------------------------------------------------------------------------------------------->
+
+
 </body>
 </html>
