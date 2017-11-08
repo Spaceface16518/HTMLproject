@@ -13,7 +13,7 @@ th, td {
 </head>
 <body>
 
-<h2>Cell that spans two columns:</h2>
+<p>Qestion<p>
 <table style="width:100%">
   <tr>
     <td>A) </td>
