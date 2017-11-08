@@ -20,7 +20,36 @@ display: none
 <h3 style = "color:#0077e6"> <b> TMSCA Science</b> Practice</h3>
 <p>This site gives you practice problems for one of the TMSCA science tests.This way you can get your feet wet with the TMSCA and learn more about how the science test works.</p>
 
-<!--replace with answer template-->
+<!DOCTYPE html>
+<html>
+<body>
+<table style="width:100%">
+  <tr>
+    <td colspan ="2">Question?</td>
+  <tr>
+    <td>A) </td>
+    <td>B) </td>
+  </tr>
+  <tr>
+    <td>C) </td>
+    <td>D) </td>
+  </tr>
+</table>
 
+<!---cut in between here to make changes to the reveal answer function--->
+
+<button onclick="myFunction()">Answer</button>
+
+<div style="none" id="answer1">
+Answer </div> 
+<!---replace the word answer with the answer letter, and change the number after the "answer" id to the problem number--->
+
+<script>
+function myFunction() {
+    document.getElementById("answer1").style.display = block
+</script>
+<!---cut in between here to make changes to the reveal answer function--->
+</body>
+</html>
 </body>
 </html>
