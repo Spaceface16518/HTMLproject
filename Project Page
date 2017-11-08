@@ -21,19 +21,19 @@ display: none
 
 <table style="width:100%">
   <tr>
-    <td colspan ="2">Question?</td>
+    <td colspan ="2">1. A new species of fish that eats Bass Minnows is introduced to Town Lake in Austin, TX. The population level of the fish will likely ________.</td>
   <tr>
-    <td>A) </td>
-    <td>B) </td>
+    <td>A)Increase </td>
+    <td>B)Decrease </td>
   </tr>
   <tr>
-    <td>C) </td>
-    <td>D) </td>
+    <td>C)Stay the same </td>
+    <td>D)Decrease, then increase </td>
   </tr>
 </table>
 <button onclick="answer1Function()">Answer</button>
 <div id="answer1">
-Answer </div> 
+A, the species of fish will likely increase in population </div> 
 <!---replace the word answer with the answer letter, and change the number after the "answer" id to the problem number--->
 <script>
 function answer1Function() {
