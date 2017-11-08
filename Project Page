@@ -3,7 +3,7 @@
 <style>
 body {background-color: #ccffcc;}
 table, th, td {
-    border: 1px solid black;
+    border: 0px solid black;
     border-collapse: collapse;
 }
 th, td {
@@ -38,15 +38,16 @@ display: none
 
 <!---cut in between here to make changes to the reveal answer function--->
 
-<button onclick="myFunction()">Answer</button>
+<button onclick="answer1Function()">Answer</button>
 
-<div style="none" id="answer1">
+<div id="answer1">
 Answer </div> 
 <!---replace the word answer with the answer letter, and change the number after the "answer" id to the problem number--->
 
 <script>
-function myFunction() {
-    document.getElementById("answer1").style.display = block
+function answer1Function() {
+    alert ("answer1")
+    }
 </script>
 <!---cut in between here to make changes to the reveal answer function--->
 </body>
