@@ -7,8 +7,6 @@
 <br>D.Choice
 <!---cut here to make changes to the answer choice method (especially for table integration)--->
 
-
-
 <!---cut in between here to make changes to the reveal answer function--->
 
 <button onclick="myFunction()">Answer</button>
@@ -28,3 +26,5 @@ function myFunction() {
 }
 </script>
 <!---cut in between here to make changes to the reveal answer function--->
+
+
