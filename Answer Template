@@ -18,7 +18,7 @@
 
 <button onclick="myFunction()">Answer</button>
 
-<div id="answer1">
+<div style="none" id="answer1">
 Answer </div> 
 <!---replace the word answer with the answer letter, and change the number after the "answer" id to the problem number--->
 
