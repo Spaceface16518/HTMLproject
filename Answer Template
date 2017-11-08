@@ -1,32 +1,27 @@
-<!DOCTYPE html>
-<html>
-<body>
+
+
+<!------------------------------------------------------------------------------------------------------------------------>
+
 <table style="width:100%">
   <tr>
-    <td colspan ="2">Question?</td>
+    <td colspan ="2">1. A new species of fish that eats Bass Minnows is introduced to Town Lake in Austin, TX. The population level of the fish will likely ________.</td>
   <tr>
-    <td>A) </td>
-    <td>B) </td>
+    <td>A)Increase </td>
+    <td>B)Decrease </td>
   </tr>
   <tr>
-    <td>C) </td>
-    <td>D) </td>
+    <td>C)Stay the same </td>
+    <td>D)Decrease, then increase </td>
   </tr>
 </table>
-
-<!---cut in between here to make changes to the reveal answer function--->
-
-<button onclick="myFunction()">Answer</button>
-
-<div style="none" id="answer1">
-Answer </div> 
+<button onclick="answer1Function()">Answer</button>
 <!---replace the word answer with the answer letter, and change the number after the "answer" id to the problem number--->
-
 <script>
-function myFunction() {
-    document.getElementById("answer1").style.display = block
+function answer1Function() {
+    alert ("A, the species of fish will likely increase in population")
+    }
 </script>
-<!---cut in between here to make changes to the reveal answer function--->
-</body>
-</html>
+
+<!--------------------------------------------------------------------------------------------------------------------------->
+
 
