@@ -2,7 +2,7 @@
 
 <div id="answer1">
 Answer </div> 
-<!---replace the word answer with the answer letter--->
+<!---replace the word answer with the answer letter, and change the number after the "answer" id to the problem number--->
 <script>
 
 function myFunction() {
