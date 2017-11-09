@@ -89,5 +89,29 @@ function answer3Function() {
 <!------------------------------------------------------/Question 3--------------------------------------------------------------------->
 
 
+<!------------------------------------------------Question 4-------------------------------------------------------------->
+
+<table style="width:100%; background-color:#ccffcc">
+  <tr>
+    <td colspan ="2">Of these, ______ is an activity in soil formation.</td>
+  <tr>
+    <td>A) Carbonation </td>
+    <td>B) Abrasion </td>
+  </tr>
+  <tr>
+    <td>C) Root-pry </td>
+    <td>D) Exfoliation </td>
+  </tr>
+</table>
+<button onclick="answer4Function()">Answer</button>
+<script>
+function answer4Function() {
+    alert ("C, root-pry is an activity in soil formation")
+    }
+</script>
+
+<!-----------------------------------------------------/Question 4----------------------------------------------------------->
+
+
 </body>
 </html>
