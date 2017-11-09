@@ -18,7 +18,7 @@ display: none
 <body>
 <h3 style = "color:#0077e6"> <b> TMSCA Science</b> Practice</h3>
 <p>This site gives you practice problems for one of the TMSCA science tests.This way you can get your feet wet with the TMSCA and learn more about how the science test works.</p>
-<!--------------------------------------------------------------------------------------------------------------->
+<!-----------------------------------------------Question 1---------------------------------------------------------------->
 <table style="width:100%">
   <tr>
     <td colspan ="2">1. A new species of fish that eats Bass Minnows is introduced to Town Lake in Austin, TX. The population level of the fish will likely ________.</td>
@@ -38,12 +38,12 @@ function answer1Function() {
     alert ("A, the species of fish will likely increase in population")
     }
 </script>
-<!------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------/Question 1------------------------------------------------------>
 
 
-<!------------------------------------------------------------------------------------------------------------------------>
+<!-------------------------------------------------------Question 2----------------------------------------------------------------->
 
-<table style="width:100%">
+<table style="width:100%; background-color:#c2edc2">
   <tr>
     <td colspan ="2">After going from a standing position to running, your heart rate is likely to _____ after a few minutes.</td>
   <tr>
@@ -62,7 +62,31 @@ function answerXFunction() {
     }
 </script>
 
-<!--------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------/Question 2--------------------------------------------------------------------->
+
+
+<!-----------------------------------------------------------Question 3------------------------------------------------------------->
+
+<table style="width:100%">
+  <tr>
+    <td colspan ="2">After many trials, scientists crossed wild mustard plant that had clusters of small flowers to create broccoli and cauliflower. This is an example of _________</td>
+  <tr>
+    <td>A) Selective breeding </td>
+    <td>B) Genetic engineering </td>
+  </tr>
+  <tr>
+    <td>C) Natural selection </td>
+    <td>D) Cloning </td>
+  </tr>
+</table>
+<button onclick="answer3Function()">Answer</button>
+<script>
+function answer3Function() {
+    alert ("A, this is an example of selective breeding")
+    }
+</script>
+
+<!------------------------------------------------------/Question 3--------------------------------------------------------------------->
 
 
 </body>
