@@ -14,10 +14,17 @@ th, td {
 div {
 display: none
 }
+
+a:hover {
+background-color:blue
+}
+a:visited{
+color:"dark blue"
+}
 </style>
 <body>
 <h2 style = "color:#0077e6; text-align:center"> <b> TMSCA Science</b> Practice</h2>
-<h4>This site gives you practice problems for one of the TMSCA science tests.This way you can get your feet wet with the TMSCA and learn more about how the science test works.</h4>
+<h4>This site gives you practice problems for one of the TMSCA science tests.This way you can get your feet wet with the TMSCA and learn more about how the science test works.</h4> Click <a href = "https://www.tmsca.org/" style = "color:tomato">here</a> to learn more about the <span style = "color:blue">T</span>exas <span style = "color:blue">M</span>ath and <span style = "color:blue">S</span>cience <span style = "color:blue">C</span>oaches <span style = "color:blue">A</span>ssociation.
 <!-----------------------------------------------Question 1---------------------------------------------------------------->
 <form>
 <table style="width:100%">
