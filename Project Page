@@ -19,18 +19,20 @@ display: none
 <h2 style = "color:#0077e6; text-align:center"> <b> TMSCA Science</b> Practice</h2>
 <h4>This site gives you practice problems for one of the TMSCA science tests.This way you can get your feet wet with the TMSCA and learn more about how the science test works.</h4>
 <!-----------------------------------------------Question 1---------------------------------------------------------------->
+<form>
 <table style="width:100%">
   <tr>
     <td colspan ="2">1) A new species of fish that eats Bass Minnows is introduced to Town Lake in Austin, TX. The population level of the fish will likely ________.</td>
   <tr>
-    <td>A) Increase </td>
-    <td>B) Decrease </td>
+    <td><input type = "radio" id = q1a>A) Increase</input> </td>
+    <td><input type = "radio" id = q1b>B) Decrease</input> </td>
   </tr>
   <tr>
-    <td>C) Stay the same </td>
-    <td>D) Decrease, then increase </td>
+    <td><input type = "radio" id = q1c>C) Stay the same </td>
+    <td><input type = "radio" id = q1bd>D) Decrease, then increase </td>
   </tr>
 </table>
+</form>
 <button onclick="answer1Function()">Answer</button>
 <!---replace the word answer with the answer letter, and change the number after the "answer" id to the problem number--->
 <script>
@@ -38,6 +40,7 @@ function answer1Function() {
     alert ("A, the species of fish will likely increase in population")
     }
 </script>
+
 <!------------------------------------------------------/Question 1------------------------------------------------------>
 
 
@@ -47,17 +50,17 @@ function answer1Function() {
   <tr>
     <td colspan ="2">2) After going from a standing position to running, your heart rate is likely to _____ after a few minutes.</td>
   <tr>
-    <td>A) Increase </td>
-    <td>B) Decrease </td>
+    <td><input type = "radio" id = q2a>A) Increase </td>
+    <td><input type = "radio" id = q2b>B) Decrease </td>
   </tr>
   <tr>
-    <td>C) Stay the same </td>
-    <td>D) Decrease, then increase </td>
+    <td><input type = "radio" id = q2c>C) Stay the same </td>
+    <td><input type = "radio" id = q2d>D) Decrease, then increase</input> </td>
   </tr>
 </table>
-<button onclick="answerXFunction()">Answer</button>
+<button onclick="answer2Function()">Answer</button>
 <script>
-function answerXFunction() {
+function answer2Function() {
     alert ("A, your heart rate will increase after a few minutes")
     }
 </script>
@@ -71,12 +74,12 @@ function answerXFunction() {
   <tr>
     <td colspan ="2">3) After many trials, scientists crossed wild mustard plant that had clusters of small flowers to create broccoli and cauliflower. This is an example of _________</td>
   <tr>
-    <td>A) Selective breeding </td>
-    <td>B) Genetic engineering </td>
+    <td><input type = "radio" id = q3a>A) Selective breeding </input></td>
+    <td><input type = "radio" id = q3b>B) Genetic engineering </input></td>
   </tr>
   <tr>
-    <td>C) Natural selection </td>
-    <td>D) Cloning </td>
+    <td><input type = "radio" id = q3c>C) Natural selection</input></td>
+    <td><input type = "radio" id = q3d>D) Cloning </input></td>
   </tr>
 </table>
 <button onclick="answer3Function()">Answer</button>
@@ -95,12 +98,12 @@ function answer3Function() {
   <tr>
     <td colspan ="2">4) Of these, ______ is an activity in soil formation.</td>
   <tr>
-    <td>A) Carbonation </td>
-    <td>B) Abrasion </td>
+    <td><input type = "radio" id = q4a>A) Carbonation </input></td>
+    <td><input type = "radio" id = q4b>B) Abrasion </input></td>
   </tr>
   <tr>
-    <td>C) Root-pry </td>
-    <td>D) Exfoliation </td>
+    <td><input type = "radio" id = q4c>C) Root-pry </input></td>
+    <td><input type = "radio" id = q4d>D) Exfoliation </input></td>
   </tr>
 </table>
 <button onclick="answer4Function()">Answer</button>
@@ -119,12 +122,12 @@ function answer4Function() {
   <tr>
     <td colspan ="2">5) Plants and animals both have _______ tissue.</td>
   <tr>
-    <td>A) Protective </td>
-    <td>B) Connective </td>
+    <td><input type = "radio" id = q5a>A) Protective </input></td>
+    <td><input type = "radio" id = q5b>B) Connective </input></td>
   </tr>
   <tr>
-    <td>C) Nerve </td>
-    <td>D) Unexplained </td>
+    <td><input type = "radio" id = q5c>C) Nerve </input></td>
+    <td><input type = "radio" id = q5d>D) Unexplained </input></td>
   </tr>
 </table>
 <button onclick="answer5Function()">Answer</button>
@@ -143,12 +146,12 @@ function answer5Function() {
   <tr>
     <td colspan ="2">6) _______ are a group of plants represented by only 15 species</td>
   <tr>
-    <td>A) Liverworts </td>
-    <td>B) Ferns </td>
+    <td><input type = "radio" id = q6a>A) Liverworts </input></td>
+    <td><input type = "radio" id = q6b>B) Ferns </input></td>
   </tr>
   <tr>
-    <td>C) Horsetails </td>
-    <td>D) Club mosses </td>
+    <td><input type = "radio" id = q6c>C) Horsetails </input></td>
+    <td><input type = "radio" id = q6d>D) Club mosses </input></td>
   </tr>
 </table>
 <button onclick="answer6Function()">Answer</button>
@@ -167,12 +170,12 @@ function answer6Function() {
   <tr>
     <td colspan ="2">7) Which of the following is not matter?</td>
   <tr>
-    <td>A) A cloud </td>
-    <td>B) Your hair </td>
+    <td><input type = "radio" id = q7a>A) A cloud </input></td>
+    <td><input type = "radio" id = q7b>B) Your hair </input></td>
   </tr>
   <tr>
-    <td>C) Sunshine </td>
-    <td>D) The sun </td>
+    <td><input type = "radio" id = q7c>C) Sunshine </input></td>
+    <td><input type = "radio" id = q7d>D) The sun </input></td>
   </tr>
 </table>
 <button onclick="answer7Function()">Answer</button>
@@ -191,12 +194,12 @@ function answer7Function() {
   <tr>
     <td colspan ="2">8) Becuase ocean waters transfer _______ from place to place, they affect climate.</td>
   <tr>
-    <td>A) water </td>
-    <td>B) salt </td>
+    <td><input type = "radio" id = q8a>A) water </input></td>
+    <td><input type = "radio" id = q8b>B) salt </input></td>
   </tr>
   <tr>
-    <td>C) sunlight </td>
-    <td>D) heat </td>
+    <td><input type = "radio" id = q8c>C) sunlight </input></td>
+    <td><input type = "radio" id = q8d>D) heat </input></td>
   </tr>
 </table>
 <button onclick="answer8Function()">Answer</button>
@@ -215,12 +218,12 @@ function answer8Function() {
   <tr>
     <td colspan ="2">9) Of the following, a _______ would likely be the most stable community.</td>
   <tr>
-    <td>A) Cornfield </td>
-    <td>B) Bare rock </td>
+    <td><input type = "radio" id = q9a>A) Cornfield </input></td>
+    <td><input type = "radio" id = q9b>B) Bare rock </input></td>
   </tr>
   <tr>
-    <td>C) Flower garden </td>
-    <td>D) Hardwood forest </td>
+    <td><input type = "radio" id = q9c>C) Flower garden </input></td>
+    <td><input type = "radio" id = q9d>D) Hardwood forest </input></td>
   </tr>
 </table>
 <button onclick="answer9Function()">Answer</button>
@@ -239,12 +242,12 @@ function answer9Function() {
   <tr>
     <td colspan ="2">10) _______ are formed when a glacier flows into and erodes a river valley, changing the valley from its origninal V-shape.</td>
   <tr>
-    <td>A) Hanging valleys </td>
-    <td>B) Ar&#234;tes </td>
+    <td><input type = "radio" id = q10a>A) Hanging valleys </input></td>
+    <td><input type = "radio" id = q10b>B) Ar&#234;tes </input></td>
   </tr>
   <tr>
-    <td>C) U-shaped valleys </td>
-    <td>D) Horns </td>
+    <td><input type = "radio" id = q10c>C) U-shaped valleys </input></td>
+    <td><input type = "radio" id = q10d>D) Horns </input></td>
   </tr>
 </table>
 <button onclick="answer10Function()">Answer</button>
