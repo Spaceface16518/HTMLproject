@@ -137,5 +137,29 @@ function answer5Function() {
 <!-----------------------------------------------------/Question 5----------------------------------------------------------->
 
 
+<!------------------------------------------------Question 6-------------------------------------------------------------->
+
+<table style="width:100%; background-color:#c2edc2">
+  <tr>
+    <td colspan ="2">_______ are a group of plants represented by only 15 species</td>
+  <tr>
+    <td>A) Liverworts </td>
+    <td>B) Ferns </td>
+  </tr>
+  <tr>
+    <td>C) Horsetails </td>
+    <td>D) Club mosses </td>
+  </tr>
+</table>
+<button onclick="answer6Function()">Answer</button>
+<script>
+function answer6Function() {
+    alert ("C, horsetails are represented only by 15 species")
+    }
+</script>
+
+<!-----------------------------------------------------/Question 6----------------------------------------------------------->
+
+
 </body>
 </html>
