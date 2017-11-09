@@ -113,5 +113,29 @@ function answer4Function() {
 <!-----------------------------------------------------/Question 4----------------------------------------------------------->
 
 
+<!------------------------------------------------Question 5-------------------------------------------------------------->
+
+<table style="width:100%">
+  <tr>
+    <td colspan ="2">Plants and animals both have _______ tissue.</td>
+  <tr>
+    <td>A) Protective </td>
+    <td>B) Connective </td>
+  </tr>
+  <tr>
+    <td>C) Nerve </td>
+    <td>D) Unexplained </td>
+  </tr>
+</table>
+<button onclick="answer5Function()">Answer</button>
+<script>
+function answer5Function() {
+    alert ("A, both plants, and animals have connective tissue")
+    }
+</script>
+
+<!-----------------------------------------------------/Question 5----------------------------------------------------------->
+
+
 </body>
 </html>
