@@ -209,5 +209,53 @@ function answer8Function() {
 <!-----------------------------------------------------/Question 8----------------------------------------------------------->
 
 
+<!------------------------------------------------Question 9-------------------------------------------------------------->
+
+<table style="width:100%">
+  <tr>
+    <td colspan ="2">9) Of the following, a _______ would likely be the most stable community.</td>
+  <tr>
+    <td>A) Cornfield </td>
+    <td>B) Bare rock </td>
+  </tr>
+  <tr>
+    <td>C) Flower garden </td>
+    <td>D) Hardwood forest </td>
+  </tr>
+</table>
+<button onclick="answer9Function()">Answer</button>
+<script>
+function answer9Function() {
+    alert ("D, a hardwood forest is the most stable community")
+    }
+</script>
+
+<!-----------------------------------------------------/Question 9----------------------------------------------------------->
+
+
+<!------------------------------------------------Question 10-------------------------------------------------------------->
+
+<table style="width:100%; background-color:#c2edc2">
+  <tr>
+    <td colspan ="2">10) _______ are formed when a glacier flows into and erodes a river valley, changing the valley from its origninal V-shape.</td>
+  <tr>
+    <td>A) Hanging valleys </td>
+    <td>B) Ar&#234;tes </td>
+  </tr>
+  <tr>
+    <td>C) U-shaped valleys </td>
+    <td>D) Horns </td>
+  </tr>
+</table>
+<button onclick="answer10Function()">Answer</button>
+<script>
+function answer10Function() {
+    alert ("D, horns are formed when a glacier changes a valley's shape")
+    }
+</script>
+
+<!-----------------------------------------------------/Question 10----------------------------------------------------------->
+
+
 </body>
 </html>
